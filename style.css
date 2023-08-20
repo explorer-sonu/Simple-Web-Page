@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin: 0 34px;
+    padding: 8px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heder_nav_logo{
+    width:180px ;
+    height: 140px;
+}
+
+.heder_nav_items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.heder_nav_item a{
+    color: brown;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.heder_nav_item a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+}
+/* MAIN */
+/* Section 1 */
+ .hero{
+    display: flex;
+    padding-top:64px ;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.main_text{
+    width: 500px;
+}
+
+.main_img img{
+   width: 500px ; 
+}
+
+.main_text-heading{
+    font-size:33px ;
+    color: blueviolet;
+}  
+
+/* Section 2=>CARD */
+
+.showsase{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.image{
+    height: 100px;
+}
+
+.showcase_cards h3{
+    color: crimson;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.showcase_cards h3:hover{
+    color: blue;
+    text-decoration-line: underline;
+
+}
+/* section 3=>service */
+.section_3{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_img img{
+    width: 500px;
+}
+
+.service_text{
+    width: 500px;
+}
+
+.service_text-heading{
+    font-size: 30px;
+    color: deeppink;
+}
+
+/* section 4 */
+.section_4{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+.libraryinfo{
+    width: 500px;
+}
+.aboutlab{
+    font-size: 30px;
+    color: black;
+}
+.imglab img{
+    width: 500px;
+
+}
+/* section 5 */
+.footer{
+    background-color: black;
+    color:white ;
+    padding: 18px;
+}
+.footer_text{
+    text-align: center;
+    font-size: 20px;
+}
