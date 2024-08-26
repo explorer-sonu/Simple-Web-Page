@@ -2,7 +2,7 @@
 
 This is a simple web page created using HTML and CSS.
  👉
-[Live Preview]()
+[Live Preview](https://explorer-sonu.github.io/Simple-Web-Page/)
 
 ## Description
 
